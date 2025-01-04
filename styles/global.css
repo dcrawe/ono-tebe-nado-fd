@@ -20,6 +20,8 @@ body {
   font-style: normal;
   color: #000;
   align-items: center;
+  padding: 0;
+  margin: 0;
 }
 
 h1,
