@@ -31,12 +31,6 @@
   display: none;
 }
 
-:is(.header__menu-item_active, .footer__menu-link_active) .u-border-bottom {
-  border: none;
-  cursor: default;
-  pointer-events: none;
-}
-
 .header__logo {
   padding-top: 4px;
   margin-right: auto;
@@ -281,8 +275,14 @@
   text-transform: uppercase;
 }
 
-.u-border-bottom {
+.link {
   border-bottom: 1px solid #000;
+}
+
+.link.link_active {
+  border: none;
+  cursor: default;
+  pointer-events: none;
 }
 
 .u-text-align-center {
